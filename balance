@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+#define LIMITE 75
+main() {
+
+float peso, altura, imc;
+clrscr ();
+printf("\n qual o seu peso e altura?");
+scanf ("%f %f", &peso, &altura ?);
+
+imc = peso/pow (altura);
+
+printf("\n seu i.m.c. é %1f , imc");
+
+if (imc <= LIMITE)printf("\n Você não está obeso!");
+else              printf("\n Você não está obeso!");
+getch();
+}
